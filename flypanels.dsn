@@ -34,23 +34,23 @@
   )
   (placement
     (component SOIC18
-      (place U1 4527.6 -3356.3 back 0 (PN ULN2804A))
+      (place U1 4616.1 -3356.3 back 180 (PN ULN2804A))
     )
     (component SM0603
       (place R9 5078.7 -2755.9 front 0 (PN 10K))
       (place R8 4104.3 -3848.4 front 90 (PN 82))
       (place R7 4025.6 -3848.4 front 90 (PN 82))
       (place R6 4301.2 -3563 front 90 (PN 82))
-      (place R5 5137.8 -3297.2 front 270 (PN 82))
+      (place R5 5147.6 -3690.9 front 270 (PN 82))
       (place R4 3996.1 -3100.4 front 90 (PN 82))
-      (place R3 4921.3 -3454.7 front 180 (PN 82))
-      (place R2 4921.3 -3543.3 front 180 (PN 82))
+      (place R3 5147.6 -3376 front 270 (PN 82))
+      (place R2 5147.6 -3533.5 front 270 (PN 82))
       (place R1 4055.1 -2755.9 front 0 (PN 82))
       (place C2 4212.6 -3563 front 270 (PN 0.1uF))
       (place C1 5039.4 -3818.9 front 0 (PN 0.1uF))
     )
     (component TQFP32
-      (place IC1 4606.3 -3346.5 front 0 (PN "ATMEGA168-A"))
+      (place IC1 4645.7 -3346.5 front 0 (PN "ATMEGA168-A"))
     )
     (component LED_8x8
       (place MATRIX1 4566.9 -3307 front 0 (PN LED_8X8))
@@ -379,12 +379,21 @@
       "N-000020" "N-000021" "N-000022" "N-000023" "N-000024" "N-000025" "N-000026"
       "N-000027" "N-000028" "N-000029" "N-000030" "N-000031" "N-000032" "N-000033"
       "N-000034" "N-000035" "N-000036" "N-000037" "N-000038" "N-000039" "N-000040"
-      "N-000041" "N-000042" "N-000043" "N-000044" "N-000045" "N-000046" VCC
+      "N-000041" "N-000042" "N-000043" "N-000044" "N-000045" "N-000046"
       (circuit
         (use_via Via[0-1]_35:25_mil)
       )
       (rule
         (width 8)
+        (clearance 10.1)
+      )
+    )
+    (class VCC VCC
+      (circuit
+        (use_via Via[0-1]_35:25_mil)
+      )
+      (rule
+        (width 12)
         (clearance 10.1)
       )
     )
