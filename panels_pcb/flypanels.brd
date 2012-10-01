@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Thu 13 Sep 2012 05:17:18 PM PDT
+PCBNEW-BOARD Version 1 date Mon 01 Oct 2012 10:48:10 AM PDT
 
 # Created by Pcbnew(2011-05-25)-stable
 
@@ -21,7 +21,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11700 8267
 Title ""
-Date "14 sep 2012"
+Date "1 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1403,7 +1403,7 @@ De 20 0 0 Normal
 $EndTEXTPCB
 $TEXTPCB
 Te "Flypanel v1.0 (2012)"
-Po 45276 27559 394 394 79 0
+Po 45670 27559 394 394 79 0
 De 20 0 0 Normal
 $EndTEXTPCB
 $TRACK

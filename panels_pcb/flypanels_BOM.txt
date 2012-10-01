@@ -3,7 +3,7 @@ Desc.                               Qty.    Part No.                    Company 
 ----------------------------------------------------------------------------------------------------
 IC DRIVER DARL 8CH 50V.5A 18-SO     1       ULN2804AFWG(CELHACT-ND      Digi-Key            0.92
 IC AVR MCU 16K 20MHZ 32TQFP         1       ATMEGA168-20AU-ND           Digi-Key            4.32
-8 POS PEEL-A-WAY SIP CONN.          2       KSS008-85TG**               Adv. Interconn.*    0.70
+CONN SOCKET MINI SPRING GOLD        16      147444-1-ND                 Digi-Key            7.39
 RES 0603 82 OHM 1/10W 1%            8       P82.0HCT-ND                 Digi-Key            0.80 
 RES 0603 10K OHM 1/10W 5%           1       P10KGCT-ND                  Digi-Key            0.10
 CAP 0603 0.33 uF                    2       PCC2274CT-ND                Digi-Key            0.50
@@ -12,6 +12,7 @@ CONN RIGHT-ANGLE, 8 POS, FEMALE     1       SSHR-108-S-02-L-T           MLE*    
 CERAMIC RES 20 MHz                  1       490-1199-6-ND               Digi-Key            0.95
 
 NOTES:
+#8 POS PEEL-A-WAY SIP CONN.          2       KSS008-85TG**               Adv. Interconn.*    0.70
 *MLE: Major League Electronics
 *Adv. Interconn: Advanced Interconnections
 **This PCB design needs 2x 8-POSITION connectors of the KSSXXX-85TG series. These connectors can be 
