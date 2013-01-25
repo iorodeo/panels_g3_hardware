@@ -1,4 +1,4 @@
-update=Wed 12 Sep 2012 05:31:06 PM PDT
+update=Fri 25 Jan 2013 01:41:01 PM PST
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -81,9 +81,9 @@ LibName33=libs/uln2804a
 LibName34=libs/cer_reso
 [pcbnew]
 version=1
-PadDrlX=400
-PadDimH=600
-PadDimV=600
+PadDrlX=0
+PadDimH=236
+PadDimV=787
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -94,7 +94,7 @@ VEgarde=100
 DrawLar=150
 EdgeLar=150
 TxtLar=120
-MSegLar=60
+MSegLar=80
 LastNetListRead=flypanels.net
 [pcbnew/libraries]
 LibDir=
@@ -108,7 +108,8 @@ LibName7=display
 LibName8=valves
 LibName9=led
 LibName10=dip_sockets
-LibName11=mods/SOIC18
-LibName12=mods/CONN_8x1
-LibName13=mods/LED_8X8
-LibName14=mods/XL
+LibName11=mods/CONN_8x1
+LibName12=mods/LED_8X8
+LibName13=mods/XZL_SOP18
+LibName14=mods/XZL_CR
+LibName15=mods/LOGO

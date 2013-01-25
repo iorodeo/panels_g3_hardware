@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPCB (2011-05-25)-stable date = Wed 12 Sep 2012 05:34:12 PM PDT
+Cmp-Mod V01 Genere par PcbNew le Fri 25 Jan 2013 01:19:26 PM PST
 
 BeginCmp
 TimeStamp = /504E3A3D;
@@ -109,14 +109,14 @@ BeginCmp
 TimeStamp = /504A83E6;
 Reference = U1;
 ValeurCmp = ULN2804A;
-IdModule  = SOIC18;
+IdModule  = XZL_SOP18;
 EndCmp
 
 BeginCmp
 TimeStamp = /504E3C39;
 Reference = X1;
 ValeurCmp = CER_RESO;
-IdModule  = XL;
+IdModule  = XZL_CR;
 EndCmp
 
 EndListe

@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Wed 12 Sep 2012 05:34:12 PM PDT
+# EESchema Netlist Version 1.1 created  Fri 25 Jan 2013 01:18:39 PM PST
 (
  ( /504E3A3D SM0603 C1 0.1uF
   ( 1 VCC )
@@ -116,7 +116,7 @@
   ( 1 N-000028 )
   ( 2 GND )
  )
- ( /504A83E6 SOIC18 U1 ULN2804A
+ ( /504A83E6 XZL_SOP18 U1 ULN2804A
   ( 1 N-000020 )
   ( 2 N-000022 )
   ( 3 N-000025 )
@@ -136,7 +136,7 @@
   ( 17 N-000041 )
   ( 18 N-000031 )
  )
- ( /504E3C39 XL X1 CER_RESO
+ ( /504E3C39 XZL_CR X1 CER_RESO
   ( 1 N-000045 )
   ( 2 GND )
   ( 3 N-000017 )
