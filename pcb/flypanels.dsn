@@ -24,9 +24,6 @@
       (path pcb 0  3937 -3937  5196.9 -3937  5196.9 -2677.2  3937 -2677.2
             3937 -3937)
     )
-    (plane GND (polygon Back 0  5196.9 -3937  5196.9 -2677.2  3937 -2677.2  3937 -3937)
-      (window (polygon Back 0  5110.2 -3704.7  5110.2 -3846.5  4968.5 -3846.5  4968.5 -3704.7))
-    )
     (via "Via[0-1]_35:25_mil" "Via[0-1]_35:0_mil")
     (rule
       (width 8)
@@ -40,20 +37,20 @@
       (place X1 4255.9 -3189 front 90 (PN CR))
     )
     (component SM0603
-      (place R9 5078.7 -2755.9 front 0 (PN 10K))
-      (place R8 4104.3 -3848.4 front 90 (PN 82))
-      (place R7 4271.7 -3488.2 front 0 (PN 82))
-      (place R6 4271.7 -3366.1 front 0 (PN 82))
-      (place R5 5133.9 -3618.1 front 270 (PN 82))
-      (place R4 4092.9 -2840.6 front 0 (PN 82))
-      (place R3 5133.9 -3311 front 270 (PN 82))
-      (place R2 5133.9 -3464.6 front 270 (PN 82))
-      (place R1 4090.2 -2744.5 front 0 (PN 82))
+      (place R9 5039.4 -2850.4 front 0 (PN 10K))
+      (place R8 4252 -3610.2 front 0 (PN 82))
+      (place R7 4019.7 -3870.1 front 0 (PN 82))
+      (place R6 4255.9 -3496.1 front 0 (PN 82))
+      (place R5 4921.3 -3192.9 front 270 (PN 82))
+      (place R4 4255.9 -3385.8 front 0 (PN 82))
+      (place R3 5141.7 -3425.2 front 270 (PN 82))
+      (place R2 5137.8 -3141.7 front 90 (PN 82))
+      (place R1 4094.5 -2850.4 front 0 (PN 82))
       (place C2 4917.3 -3570.9 front 270 (PN 0.1uF))
       (place C1 5039.4 -3889.8 front 0 (PN 0.1uF))
     )
     (component TQFP32
-      (place IC1 4645.7 -3346.5 front 0 (PN "ATMEGA168-A"))
+      (place IC1 4614.1 -3342.5 front 270 (PN "ATMEGA168-A"))
     )
     (component LED_8x8
       (place MATRIX1 4566.9 -3307 front 0 (PN LED_8X8))
@@ -63,10 +60,10 @@
       (place P2 4566.9 -3720.5 front 0 (PN CONN_8))
     )
     (component XZL_SOP18
-      (place U1 4616.1 -3356.3 back 0 (PN ULN2804A))
+      (place U1 4598.4 -3334.6 back 0 (PN ULN2804A))
     )
-    (component G***
-      (place G*** 5039.4 -3775.6 back 180 (PN LOGO))
+    (component "LOGO-T"
+      (place "LOGO-T" 5039.4 -3775.6 front 0 (PN LOGO))
     )
   )
   (library
@@ -213,7 +210,7 @@
       (pin Rect[T]Pad_23.6x78.7_mil 11 150 189.4)
       (pin Rect[T]Pad_23.6x78.7_mil 10 200 189.4)
     )
-    (image G***
+    (image "LOGO-T"
     )
     (padstack Round[A]Pad_60_mil
       (shape (circle Front 60))
