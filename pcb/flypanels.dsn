@@ -62,9 +62,6 @@
     (component XZL_SOP18
       (place U1 4598.4 -3334.6 back 0 (PN ULN2804A))
     )
-    (component "LOGO-T"
-      (place "LOGO-T" 5039.4 -3775.6 front 0 (PN LOGO))
-    )
   )
   (library
     (image XL
@@ -209,8 +206,6 @@
       (pin Rect[T]Pad_23.6x78.7_mil 12 100 189.4)
       (pin Rect[T]Pad_23.6x78.7_mil 11 150 189.4)
       (pin Rect[T]Pad_23.6x78.7_mil 10 200 189.4)
-    )
-    (image "LOGO-T"
     )
     (padstack Round[A]Pad_60_mil
       (shape (circle Front 60))
