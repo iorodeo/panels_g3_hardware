@@ -1,0 +1,17 @@
+### Module positions - created on Mon 01 Apr 2013 11:26:09 AM PDT ###
+### Printed by Pcbnew version pcbnew (2012-apr-16-27)-stable
+## Unit = inches, Angle = deg.
+## Side : Front
+# Ref    Val                  PosX       PosY        Rot     Side
+C1       0.1uF                5.0394     3.8898       0.0    Front
+C2       0.1uF                4.9173     3.5709     270.0    Front
+R1       82                   4.0945     2.8504       0.0    Front
+R2       82                   5.1378     3.1417      90.0    Front
+R3       82                   5.1417     3.4252     270.0    Front
+R4       82                   4.2559     3.3858       0.0    Front
+R5       82                   4.9213     3.1929     270.0    Front
+R6       82                   4.2559     3.4961       0.0    Front
+R7       82                   4.0197     3.8701       0.0    Front
+R8       82                   4.2520     3.6102       0.0    Front
+R9       10K                  5.0394     2.8504       0.0    Front
+## End

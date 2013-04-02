@@ -1,0 +1,7 @@
+### Module positions - created on Mon 01 Apr 2013 11:26:09 AM PDT ###
+### Printed by Pcbnew version pcbnew (2012-apr-16-27)-stable
+## Unit = inches, Angle = deg.
+## Side : Back
+# Ref    Val                  PosX       PosY        Rot     Side
+U1       ULN2804A             4.5984     3.3346     180.0    Back
+## End
